@@ -1,26 +1,19 @@
-# Jupyter Notebook Analysis
-
-Paper Title: **From Errors to Resolutions: Understanding Fine-Grained Debugging Patterns of Data Science Programmers in Jupyter Notebooks.** [\[pdf\]](paper.pdf)
-
-This repository contains code and data used to analyze the debugging patterns of data science programmers in Jupyter Notebooks.
-
 ## Table of Contents
 
-- [Jupyter Notebook Analysis](#jupyter-notebook-analysis)
-  - [Table of Contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Recommended Execution Order](#recommended-execution-order)
-  - [Components](#components)
-    - [NotebookFiles](#notebookfiles)
-    - [Dataset](#dataset)
-    - [AutoExecuteNotebooks](#autoexecutenotebooks)
-    - [ErrorsPreprocessing](#errorspreprocessing)
-    - [DeduplicateErrors](#deduplicateerrors)
-    - [EditPatternClassifier](#editpatternclassifier)
-    - [DataScienceStageClassifier](#datasciencestageclassifier)
-    - [DebuggingActivity](#debuggingactivity)
-  - [Directory Structure](#directory-structure)
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Recommended Execution Order](#recommended-execution-order)
+- [Components](#components)
+  - [NotebookFiles](#notebookfiles)
+  - [Dataset](#dataset)
+  - [AutoExecuteNotebooks](#autoexecutenotebooks)
+  - [ErrorsPreprocessing](#errorspreprocessing)
+  - [DeduplicateErrors](#deduplicateerrors)
+  - [EditPatternClassifier](#editpatternclassifier)
+  - [DataScienceStageClassifier](#datasciencestageclassifier)
+  - [DebuggingActivity](#debuggingactivity)
+- [Directory Structure](#directory-structure)
 
 ## Getting Started
 
