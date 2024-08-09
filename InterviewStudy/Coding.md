@@ -35,15 +35,15 @@
 
 ## Root Causes
 
-### Root Causes\Why Data Preparation is difficult and error-prone
+### Root Causes\Why Data Preprocessing is difficult and error-prone
 
-- Root Causes\Why Data Preparation is error-prone\Data is usually dirty (missing values, incomplete data, inconsistent data type): 9
-- Root Causes\Why Data Preparation is error-prone\The data's format is unclear: 8
-- Root Causes\Why Data Preparation is error-prone\Lack of domain knowledge: 5
-- Root Causes\Why Data Preparation is error-prone\Integrating different data sources is error-prone: 4
-- Root Causes\Why Data Preparation is error-prone\Data size is too large: 4
-- Root Causes\Why Data Preparation is error-prone\Automating the data cleaning process is challenging: 3
-- Root Causes\Why Data Preparation is error-prone\Transforming unstructured data into a meaningful format is difficult: 2
+- Root Causes\Why Data Preprocessing is error-prone\Data is usually dirty (missing values, incomplete data, inconsistent data type): 9
+- Root Causes\Why Data Preprocessing is error-prone\The data's format is unclear: 8
+- Root Causes\Why Data Preprocessing is error-prone\Lack of domain knowledge: 5
+- Root Causes\Why Data Preprocessing is error-prone\Integrating different data sources is error-prone: 4
+- Root Causes\Why Data Preprocessing is error-prone\Data size is too large: 4
+- Root Causes\Why Data Preprocessing is error-prone\Automating the data cleaning process is challenging: 3
+- Root Causes\Why Data Preprocessing is error-prone\Transforming unstructured data into a meaningful format is difficult: 2
 
 ### Root Causes\Why Data Exploration is difficult and error-prone
 
