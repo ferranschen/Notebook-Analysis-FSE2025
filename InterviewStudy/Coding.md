@@ -80,7 +80,7 @@
 
 ### Improvement and Opportunity
 
-- Improvement and Opportunity\Tools to manage/visualize cell dependencies: 5
+- Improvement and Opportunity\Tools to manage & visualize cell dependencies: 5
 - Improvement and Opportunity\Need version control tools for the 'state' rather than the code: 4
 - Improvement and Opportunity\Display the current variable value: 3
 - Improvement and Opportunity\On-hover features display API usage and variable types: 3
