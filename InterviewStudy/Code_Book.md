@@ -1,4 +1,4 @@
-# Code List
+# Code Book
 
 ## Background
 
@@ -58,12 +58,12 @@
 
 - Root Causes\Why Training model is difficult and error-prone\Fine-tuning is time-consuming: 2
 
-### Root Causes\Cell Dependency
+### Root Causes\Debugging Challenges in Jupyter Notebooks
 
-- Root Causes\Cell Dependency\Large notebooks can create significant dependency issues: 6
-- Root Causes\Cell Dependency\Need to memorize cell dependency: 6
-- Root Causes\Cell Dependency\Complex variable dependency issues: 4
-- Root Causes\Cell Dependency\Rerunning from scratch can be time-consuming if dependency issues occur: 3
+- Root Causes\Debugging Challenges in Jupyter Notebooks\Large notebooks can create significant dependency issues: 6
+- Root Causes\Debugging Challenges in Jupyter Notebooks\Need to memorize cell dependency: 6
+- Root Causes\Debugging Challenges in Jupyter Notebooks\Complex variable dependency issues: 4
+- Root Causes\Debugging Challenges in Jupyter Notebooks\Rerunning from scratch can be time-consuming if dependency issues occur: 3
 
 ## Debugging Practice
 
