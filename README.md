@@ -144,9 +144,9 @@ python ./DebuggingPattern_Analysis/PatternMiner.py
 ├── InstrumentationExample
 │   └── example.ipynb
 ├── InterviewStudy
-│   ├── NotebookAnalysis Coding.xlsx
-│   ├── NotebookAnalysis Consent.docx
-│   └── NotebookAnalysis Interview Guide.docx
+│   ├── Code_Book.md
+│   ├── Consent.pdf
+│   └── Interview.pdf
 ├── NotebookFiles
 │   ├── executed
 │   └── original
