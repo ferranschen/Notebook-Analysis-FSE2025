@@ -11,7 +11,6 @@
   - [ErrorsPreprocessing](#errorspreprocessing)
   - [DeduplicateErrors](#deduplicateerrors)
   - [EditPatternClassifier](#editpatternclassifier)
-  - [DebuggingActivity](#debuggingactivity)
 - [Directory Structure](#directory-structure)
 
 ## Getting Started
@@ -30,7 +29,6 @@ Currently, each component listed above can be run independently. However, If you
 2. **ErrorsPreprocessing**
 3. **DeduplicateErrors**
 4. **EditPatternClassifier**
-5. **DebuggingActivity**
 
 > :bulb: **_NOTE:_** Sometimes you need to move the dependent files to the correct directory before running the component. Most of the dependent files are located in the `Dataset` and `NotebookFiles` directories. There is no dependency between step 4. to 6. You can run them in any order.
 
@@ -83,23 +81,6 @@ python EditPatternClassifier/main.py
 
 To know more about the implementation details of the classifier, please refer to the `EditPatternClassifier.py` file.
 
-### DebuggingActivity
-
-There are two subdirectories in this directory: `DebuggingPattern_Extract` and `DebuggingPattern_Analysis`. The `DebuggingPattern_Extract` directory contains the code for extracting the debugging traces. The `DebuggingPattern_Analysis` directory contains the code for analyzing the debugging traces.
-First, run the following command to extract the debugging traces:
-
-```bash
-python ./DebuggingPattern_Extract/TraceExtractor.py
-```
-
-> :bulb: **_NOTE:_** You need to move the `executed/` directory to the `DebuggingPattern_Extract` directory before running the command. It will generate the `"debug_sequence_" + str(datetime.now().time()) + ".txt"` file in the `DebuggingPattern_Extract` directory. You need to rename the file to `debug_sequence.txt` and put it in the `DebuggingPattern_Analysis` directory.
-
-Then, run the following command to analyze the debugging traces:
-
-```bash
-python ./DebuggingPattern_Analysis/PatternMiner.py
-```
-
 ## Directory Structure
 
 ```bash
@@ -110,9 +91,6 @@ python ./DebuggingPattern_Analysis/PatternMiner.py
 ├── Dataset
 │   ├── dataset.csv
 │   └── error_analysis_primary.csv
-├── DebuggingActivity
-│   ├── DebuggingPattern_Analysis
-│   └── DebuggingPattern_Extract
 ├── DeduplicateErrors
 │   ├── Deduplicate.py
 │   ├── error_analysis.csv
